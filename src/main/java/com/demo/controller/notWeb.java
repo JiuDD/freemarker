@@ -25,12 +25,12 @@ public class notWeb {
         // 狗
         Animal a1 = new Animal();
         a1.setName("小狗");
-        a1.setPrice(88);
+        a1.setPrice(80);
         list.add(a1);
         // 猫
         Animal a2 = new Animal();
         a2.setName("小喵");
-        a2.setPrice(80);
+        a2.setPrice(90);
         list.add(a2);
 
         // 2、构建model，封装“性别”数据
@@ -40,7 +40,7 @@ public class notWeb {
 
         Map<String, Object> map = new HashMap<>();
         map.put("user", "冉冉");
-        map.put("score", 13);
+        map.put("score", 10);
         map.put("team", "一班,二班");
         map.put("animals", list);
         map.put("sexMap", sexMap);
