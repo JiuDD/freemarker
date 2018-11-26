@@ -18,6 +18,7 @@
         </#if>
         <br/>
 
+        ${(team?split(","))[0]}<br/>
         ${(team?split(","))[1]}<br/>
 
         <#list sexMap?keys as k>
